@@ -27,5 +27,5 @@ console.log(hello_world(repeats));
 hello_world = (a, ...args) => {
     return "Hello World! ".repeat(a) + args.join(" ");
 };
-console.log(hello_world(repeats, "And others"));
+console.log(hello_world(repeats, "And others", "And OTHERS!"));
 
